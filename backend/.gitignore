@@ -1,0 +1,76 @@
+# ========================
+# Node
+# ========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# build/output
+dist/
+build/
+.next/
+out/
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Prisma
+generated/
+.prisma/
+
+# Uploads (gambar hasil teknisi)
+uploads/
+
+# ide/editor
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+!.vscode/launch.json
+.idea/
+
+# temporary files
+tmp/
+temp/
+.cache/
+
+# testing
+coverage/
+.nyc_output/
+
+# vercel
+.vercel
+
+# ========================
+# Python
+# ========================
+__pycache__/
+pycache/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+*.h5
+*.pt
+*.onnx
+
+# Torch cache
+.cache/
+
+# Ignore YOLOv5 repo
+ml-service/yolov5/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# logs
+logs
+*.log
+
+# system
+*.swp
+*.swo

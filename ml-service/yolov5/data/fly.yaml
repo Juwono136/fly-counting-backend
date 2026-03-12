@@ -1,0 +1,11 @@
+path: ../Dataset_Lalat
+train: images/train
+val: images/val
+
+nc: 5
+names:
+  - agas
+  - lalat_bangau
+  - lalat_hijau
+  - lalat_rumah
+  - lalat_daging

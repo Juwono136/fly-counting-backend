@@ -1,0 +1,10 @@
+path: Dataset_Lalat_2class
+
+train: images/train
+val: images/val
+
+nc: 2
+names:
+  - Agas
+  - Lalat Hijau
+
