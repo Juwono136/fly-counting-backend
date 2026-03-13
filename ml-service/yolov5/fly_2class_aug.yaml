@@ -1,7 +1,0 @@
-path: Dataset_Lalat_2class_aug
-
-train: images/train
-val: images/val
-
-nc: 2
-names: ['agas', 'lalat_hijau']

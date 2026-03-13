@@ -35,7 +35,7 @@ const prisma = new PrismaClient({
 // ============================
 const upload = multer({
   storage: multer.memoryStorage(),
-  limits: { fileSize: 4 * 1024 * 1024 },
+  limits: { fileSize: 4 * 1024 * 1024 }, // MAX 4MB
 });
 
 // ============================

@@ -1,8 +1,0 @@
-train: Dataset_Roboflow/train/images
-val: Dataset_Roboflow/valid/images
-test: Dataset_Roboflow/test/images
-
-nc: 2
-names:
-  - Agas
-  - Lalat Hijau
